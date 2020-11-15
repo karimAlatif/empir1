@@ -1,0 +1,40 @@
+.loading .scene {
+	width: 660px;
+}
+
+@media (max-width: 767px) {
+	.loading .scene {
+		width: 320px;
+	}
+	.project_title_text {
+		-webkit-transform: scale(.49);
+		-moz-transform: scale(.49);
+		-ms-transform: scale(.49);
+		-o-transform: scale(.49);
+		transform: scale(.49);
+	}
+}
+@media (max-width: 900px) and (orientation: landscape){
+	.loading .scene {
+		width: 320px;
+	}
+	.project_title_text {
+		-webkit-transform: scale(.49);
+		-moz-transform: scale(.49);
+		-ms-transform: scale(.49);
+		-o-transform: scale(.49);
+		transform: scale(.49);
+	}
+}
+@media (max-width: 350px) {
+	.loading .scene {
+		width: 290px;
+	}
+	.project_title_text {
+		-webkit-transform: scale(.44);
+		-moz-transform: scale(.44);
+		-ms-transform: scale(.44);
+		-o-transform: scale(.44);
+		transform: scale(.44);
+	}
+}
